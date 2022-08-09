@@ -4,4 +4,4 @@
 #include <string>
 #include <vector>
 
-int cd(std::vector<std::string> args);
+int test(std::vector<std::string> args);

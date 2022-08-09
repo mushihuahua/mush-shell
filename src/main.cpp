@@ -1,8 +1,8 @@
 #include "../include/main.hpp"
 #include "../include/builtins.hpp"
 
-std::vector<int (*)(std::vector<std::string> args)> builtins = {&cd};
-std::vector<std::string> builtins_str = {"cd"};
+std::vector<int (*)(std::vector<std::string> args)> builtins = {&test};
+std::vector<std::string> builtins_str = {"test"};
 bool piped = false;
 
 int main(int argc, char* argv[])
